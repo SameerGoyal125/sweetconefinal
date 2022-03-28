@@ -552,7 +552,7 @@ header {
 
 nav {
   min-height: 10vh;
-  font-family: "Noteworthy";
+  font-family: "Nabana";
   /* margin-top: auto; */
   margin-left: 0px;
   margin-right: 0px;
@@ -1054,15 +1054,19 @@ nav a {
 }
 @font-face {
   font-family: "Noteworthy";
-  src: url("font/noteworthy/noteworthy.woff2") format("woff2"),
-    /* chrome、firefox */
-    url("font/noteworthy/noteworthy.woff") format("woff"),
-    /* chrome、firefox *; /* iOS 4.1- */
+  src: url('font/noteworthy/noteworthy.eot'); /* IE9 Compat Modes */
+  src: url('font/noteworthy/noteworthy.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('font/noteworthy/noteworthy.woff2') format('woff2'), /* Super Modern Browsers */
+       url('font/noteworthy/noteworthy.woff') format('woff'), /* Pretty Modern Browsers */
+       url('font/noteworthy/noteworthy.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('font/noteworthy/noteworthy.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 @font-face {
   font-family: "Nabana";
-  src: url("font/nabana/nabana.ttf") format("ttf"),
-    /* chrome、firefox */
-    url("font/nabana/nabana.otf") format("otf"),
-    /* chrome、firefox *; /* iOS 4.1- */
+  src: url('font/nabana/nabana.eot'); /* IE9 Compat Modes */
+  src: url('font/nabana/nabana.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('font/nabana/nabana.woff2') format('woff2'), /* Super Modern Browsers */
+       url('font/nabana/nabana.woff') format('woff'), /* Pretty Modern Browsers */
+       url('font/nabana/nabana.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('font/nabana/nabana.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
